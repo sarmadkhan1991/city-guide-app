@@ -1,9 +1,15 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <h2>Hello City Guide App</h2>
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
   );
 }
 

@@ -3,14 +3,13 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
+import routes from './routes';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <br/>
-      Dummy Text
-      <br/>
+      {routes}
       <Footer />
     </div>
   );

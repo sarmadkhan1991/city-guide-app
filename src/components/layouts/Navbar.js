@@ -15,12 +15,12 @@ export default function Navbar() {
                     <li className="nav-item active">
                         <Link className="nav-link text-white text-uppercase ml-5" to="/">Home <i className="fas fa-home"></i> <span className="sr-only">(current)</span></Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link className="nav-link text-white text-uppercase ml-5" to="/news">News</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link text-white text-uppercase ml-5" to="/contacts">Contact Us</Link>
-                    </li>
+                    </li> */}
                 </ul>
                 <form className="form-inline my-2 my-lg-0">
                     <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>

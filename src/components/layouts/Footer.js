@@ -9,16 +9,16 @@ function Footer() {
                     <div className='row'>
                         {/* Column 1 */}
                         <div className="col-md-3 col-sm-6">
-                            <h4>Dummy Text</h4>
+                            <h4>Our Info</h4>
                             <ul className="list-unstyled">
-                                <li>Dummy Text</li>
-                                <li>Dummy Text</li>
-                                <li>Dummy Text</li>
-                                <li>Dummy Text</li>
+                                <li>(623) 444-5784</li>
+                                <li>1234 N Phoenix Blvd</li>
+                                <li>Phoenix, AZ 85085</li>
+                                <li>Slim Shady</li>
                             </ul>
                         </div>
                         {/* Column 2 */}
-                        <div className="col-md-3 col-sm-6">
+                        {/* <div className="col-md-3 col-sm-6">
                             <h4>Dummy Text</h4>
                             <ul className="list-unstyled">
                                 <li><a href="/">Dummy Text</a></li>
@@ -26,9 +26,9 @@ function Footer() {
                                 <li><a href="/">Dummy Text</a></li>
                                 <li><a href="/">Dummy Text</a></li>
                             </ul>
-                        </div>
+                        </div> */}
                         {/* Column 3 */}
-                        <div className="col-md-3 col-sm-6">
+                        {/* <div className="col-md-3 col-sm-6">
                             <h4>Dummy Text</h4>
                             <ul className="list-unstyled">
                                 <li><a href="/">Dummy Text</a></li>
@@ -36,9 +36,9 @@ function Footer() {
                                 <li><a href="/">Dummy Text</a></li>
                                 <li><a href="/">Dummy Text</a></li>
                             </ul>
-                        </div>
+                        </div> */}
                         {/* Column 4 */}
-                        <div className="col-md-3 col-sm-6">
+                        {/* <div className="col-md-3 col-sm-6">
                             <h4>Dummy Text</h4>
                             <ul className="list-unstyled">
                                 <li><a href="/">Dummy Text</a></li>
@@ -46,7 +46,7 @@ function Footer() {
                                 <li><a href="/">Dummy Text</a></li>
                                 <li><a href="/">Dummy Text</a></li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                     {/* Footer Bottom */}
                     <div className="footer-bottom">

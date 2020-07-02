@@ -8,7 +8,6 @@ export default class Details extends Component {
             <InfoConsumer>
                 {data => {
                     const {
-                        id,
                         headerTitle, 
                         headerSubTtile,
                         headerText,
@@ -53,7 +52,7 @@ export default class Details extends Component {
                                 <ul className="nav nav-tabs">
                                     {/* About Place Link */}
                                     <li className="nav-item">
-                                        <a href="#aboutPlace" className="nav-link active" role="tab" data-toggle="tab">About Place</a>
+                                        <a href="#aboutPlace" className="nav-link active" role="tab" data-toggle="tab">About</a>
                                     </li>
                                     {/* Map Link */}
                                     <li className="nav-item">
@@ -70,7 +69,7 @@ export default class Details extends Component {
                                     </div>
                                     {/* map */}
                                     <div className="tab-pane" id="map" role="tabpanel">
-                                        <iframe src={maps} style={{ border: '0', height: '28.125rem', width: '100%', frameborder: '0' }}></iframe>
+                                        <iframe src={maps} style={{ border: '0', height: '28.125rem', width: '100%', frameborder: '0' }} title="map-location"></iframe>
                                     </div>
                                 </div>
                             </div>
